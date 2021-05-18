@@ -1,0 +1,78 @@
+html,body,#container{
+    height:100%;
+}
+.info{
+    width:26rem;
+}
+#panel {
+    opacity: 0.9;
+    border-radius: 3px;
+    display: none;
+    position: absolute;
+    bottom: 10.6875rem;
+    width: 100%;
+    left: 0;
+    z-index: 10000;
+}
+#panelList {
+    background: #fff;
+    margin: 0px 0.9375rem;
+    height: 11.5625rem;
+    overflow-y: auto;
+    padding: 0 0.9375rem;
+}
+.one-address {
+    background:#fff;
+    border-bottom:1px solid #f3f3f3;
+    padding: 0.9375rem 0;
+    position:relative;
+}
+.house-name {
+    line-height: 0.875rem;
+    text-align: left;
+    font-size: 0.875rem;
+    color: #454C68;
+    letter-spacing: -0.34px;
+    font-family: SourceHanSansCN-Regular;
+}
+.house-address {
+    margin-top: 0.4375rem;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 0.75rem;
+    color: #999;
+    letter-spacing: -0.29px;
+    text-align: left;
+    line-height: 0.75rem;
+}
+.check-img {
+    display: none;
+    position: absolute;
+    right: 0.9375rem;
+    top: 1.375rem;
+    width: 1.1875rem;
+    height: 1.1875rem;
+}
+.one-address.active .check-img{
+    display: block;
+}
+.bankList{
+    position: absolute;
+    bottom: 32.6875rem;
+    left: 0;
+    z-index: 10001;
+    background: #fff;
+    opacity:0.8;
+    border-radius: 5px;
+    border:0px;
+    flex: auto;
+    margin:0 15px;
+    width: 90%;
+    box-sizing: border-box;
+    height: 35px;
+    padding:0 15px;
+    outline: none;
+    font-size: 15px;
+    line-height: 35px;
+    color: #000;
+    -webkit-appearance:none;
+}
